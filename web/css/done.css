@@ -1,0 +1,75 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 微軟正黑體;
+/*   border: solid 1px black;  */
+  transition-duration: 1s;
+  position: relative;
+}
+a{
+  text-decoration: none;
+  color: rgba(152, 193, 209, 0.9); 
+}
+a:hover{
+  color: white;
+}
+html,body{
+  height: 1000px;
+  background-color:#578394;
+  overflow-x: hidden;
+  z-index:-1;
+}
+
+.nav{
+  height: 50px;
+  background-color: rgba(23, 45, 61, 0.8);
+  z-index: 5;
+}
+
+.list1,.list2,.list3,.list4,.list5{
+  color: rgba(152, 193, 209, 0.9); 
+  display: inline-block;
+  margin: 10px;
+  margin-top: 7px;
+  font-size: 24px;
+  left: 87%;
+}
+
+.my_form{
+  color: rgba(255, 255, 255, 0.9); 
+  padding-top: 10%;
+  padding-left: 45%;
+  font-size: 200%;
+}
+.list1:hover,.list3:hover,.list4:hover,.list5:hover{
+  color: white;
+  cursor: pointer;
+}
+.char:hover{
+  color: white;
+}
+
+
+#canvas{
+  position: absolute;
+  top: -200px;
+  z-index: -1;
+}
+
+.text_1{
+  z-index: 5;
+  top: 50px;
+}
+.text_2{
+  z-index: 5;
+  top: 100px;
+}
+.title{
+  color: #d0dcef;
+  text-align: center;
+  line-height: 30px;
+}
+.sub{
+  color: #9acbed;
+  text-align: center;
+}

@@ -1,0 +1,117 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 微軟正黑體;
+/*   border: solid 1px black;  */
+  transition-duration: 1s;
+  position: relative;
+}
+a{
+  text-decoration: none;
+  color: rgba(152, 193, 209, 0.9); 
+}
+a:hover{
+  color: white;
+}
+html,body{
+  height: 1500px;
+  background-color:#082f42;
+  overflow-x: hidden;
+}
+.title_img{
+  height: 680px;
+  background-image: url("../pictures/222.png");
+   background-size: cover;
+}
+ 
+
+.nav{
+  height: 50px;
+  background-color: rgba(23, 45, 61, 0.8);
+  z-index: 5;
+}
+
+.list1,.list2,.list3,.list4,.list5{
+  color: rgba(152, 193, 209, 0.9); 
+  display: inline-block;
+  margin: 10px;
+  margin-top: 7px;
+  font-size: 24px;
+  left: 87%;
+}
+
+.list1:hover,.list3:hover,.list4:hover,.list5:hover{
+  color: white;
+  cursor: pointer;
+}
+.char:hover{
+  color: white;
+}
+
+
+.screen{
+  z-index: 5;
+  height: 550px;
+  width: 800px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  border-radius: 1%;
+  box-shadow: 0px 15px 40px -10px rgba(231,240,247,0.5);
+  background-color: #c7e3e9;
+  background-image: url("../pictures/777.png");
+  background-size: 800px 550px;
+  overflow: hidden;
+}
+
+.dialog{
+  position: absolute;
+  height: 150px;
+  width: 800px;
+  margin-top: 400px;
+  background-color: rgba(110,152,169,0.9);
+  opacity: 0;
+}
+
+@keyframes typing{
+  from{
+    width: 0;}
+} 
+
+
+
+.text_set{
+  position: absolute;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  color: #031721;
+  overflow: hidden;
+  white-space: nowrap;
+  opacity: 0;
+}
+
+.d2{
+  width: 600px;
+}
+
+.sylvie{
+  position: absolute;
+  height: 480px;
+  width: 300px;
+  margin-right: auto;
+  margin-left: 250px;
+  margin-top: 70px;
+  background-image: url("../pictures/5554.png");
+  opacity: 0;
+}
+
+
+  
+#canvas{
+  position: absolute;
+  top: -200px;
+  z-index: 2;
+}
